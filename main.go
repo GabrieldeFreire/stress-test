@@ -100,7 +100,7 @@ LOOP:
 	for {
 		select {
 		case result := <-reqChan:
-			percentage := math.Ceil(100 * counter / float64(requests))
+			percentage := 100 * counter / float64(requests)
 			printBar := strings.Repeat("|", int(percentage))
 			if percentage < 100 {
 				printBar = printBar + strings.Repeat(" ", 100-int(percentage)) + "|"
