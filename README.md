@@ -9,9 +9,9 @@ O sistema deverá gerar um relatório com informações específicas após a exe
 
 Entrada de Parâmetros via CLI:
 
---url: URL do serviço a ser testado.
---requests: Número total de requests.
---concurrency: Número de chamadas simultâneas.
+-url: URL do serviço a ser testado.  
+-requests: Número total de requests.  
+-concurrency: Número de chamadas simultâneas.  
 
 Execução do Teste:
 
